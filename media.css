@@ -1,0 +1,81 @@
+@media (max-width:600px){
+    .container{
+        width: 100%;
+    }
+    #logo{
+        margin-left: 1rem;
+    }
+    nav{
+        flex-direction: column;
+        padding: 1rem 0;
+        position: static;
+    }
+    nav ul{
+        flex-direction: column;
+        margin-top: 1.5rem;
+        margin-left: 1rem;
+    }
+    nav ul li{
+        padding: 1rem 0;
+    }
+    .banner{
+        flex-direction: column;
+        padding: 0 0;
+    }
+    .banner-left{
+        width: 100%;
+    }
+    .banner-right{
+        width: 100%;
+    }
+    .about{
+        flex-direction: column;
+        padding: 2rem 0;
+    }
+    .about-left{
+        width: 100%;
+    }
+    .about-left img{
+        width: 100%;
+    }
+    .about-right{
+        width: 100%;
+    }
+    .company-logo{
+        flex-direction: column;
+        padding: 0rem 0 2rem 0;
+    }
+    .logo-box{
+        width: 100%;
+    }
+    .service-card{
+        flex-direction: column;
+    }
+    .card-box{
+        width: 100%;
+        margin-top: 1.5rem;
+    }
+    #portfolio .section-title{
+        padding: 2rem 0;
+    }
+    #portfolio ul{
+        flex-direction: column;
+    }
+    #portfolio ul li{
+        padding-top: 1rem;
+    }
+    .project-gallery-content{
+        flex-direction: column;
+    }
+    .project-gallery{
+        width: 100%;
+        margin-top: 1.5rem;
+    }
+    .email-feild input{
+          width: 80%;
+    }
+    .email-feild button{
+        width: 50%;
+        margin-top: 1rem;
+    }
+}
